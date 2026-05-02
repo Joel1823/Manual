@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Ejemplo 12</title>
+    </head>
+    <body bgcolor="Aqua">
+        <h1>Informacion del Producto</h1>
+        <form>
+            <fieldset>
+                <legend>Datos básicos</legend>
+                <label for="Nombre">Nombre</label><br>
+                <input type="text" id="nombre" name="name"/><br><br>
+                <label for="Description">Descripción</label><br>
+                <textarea rows="5" cols="30" name="descrip"></textarea><br><br>
+                <label for="photo">Foto</label><br>
+                <input type="file" id="foto" name="Foto"/><br><br>
+                <input type="checkbox" id="permitir" name="Permitir"/><label for="Check">Añadir contador de visitas</label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Datos económicos</legend>
+                <label for="Precio">Precio</label>
+                <input type="text" id="price" name="Price"/> €
+                <label for="Impuestos">Impuestos</label>
+                <select name="impuestos">
+                    <option label="4%"></option>
+                    <option label="7%"></option>
+                    <option label="16%"></option>
+                    <option label="25%"></option>
+                </select>
+                <br><br>
+                <label for="Promocion">Promoción</label><br>
+                <input type="radio" id="eleccion1" name="Elegir1"/> <label for="1">Ninguno</label><br>
+                <input type="radio" id="eleccion2" name="Elegir2"/><label for="2">Transporte gratuito</label><br>
+                <input type="radio" id="eleccion3" name="Elegir3"/><label for="3">Descuento 5%</label>
+            </fieldset>
+        </form>
+        <a href="Paginaprincipal.html">Volver con LagoonaBlue</a>
+    </body>
+</html>
